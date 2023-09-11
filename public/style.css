@@ -1,0 +1,26 @@
+* {
+    margin: 5px;
+}
+
+.container {
+    width: 650px;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+}
+
+.contInForm1 {
+    width: 20%;
+}
+
+.contInForm2 {
+    width: 30%;
+}
+
+label {
+    display: block;
+    margin: 10px 0
+}

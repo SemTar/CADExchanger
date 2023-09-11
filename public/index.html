@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="./three.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form name="coneParams">
+                <div class="contInForm1">
+                    <label for="segmentsCount">segments count</label>
+                    <label for="coneHeight">cone height</label>
+                    <label for="baseRadius">base radius</label>
+                </div>
+                <div class="contInForm2">
+                    <input type="number" name="segmentsCount" id="segmentsCount">
+                    <input type="number" name="coneHeight" id="coneHeight">
+                    <input type="number" name="baseRadius" id="baseRadius">
+                </div>
+                <div class="contInForm3">
+                    <button type="submit" id="submit">Display</button>
+                </div>
+            </form>
+            <canvas id="canvas" width="640" height="480" style="border: solid">
+                Your browser doesn't appear to support the HTML5
+                <code>&lt;canvas&gt;</code> element.
+            </canvas>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
